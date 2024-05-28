@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.gap {
+  margin: 30px;
+}
+.review-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.subheading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.tagline {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.rating-container {
+  margin-bottom: 20px;
+}
+.star {
+  font-size: 24px;
+  color: #b5c0d0;
+  cursor: pointer;
+}
+.star.checked {
+  color: gold;
+}
+
+.another-rating-container {
+  margin-bottom: 20px;
+}
+.another-star {
+  font-size: 24px;
+  color: #b5c0d0;
+  cursor: pointer;
+}
+.another-star.checked {
+  color: gold;
+}
+
+.thumbs-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.thumb {
+  font-size: 18px;
+  color: #b5c0d0;
+  cursor: pointer;
+}
+.thumb.checked {
+  color: green; /* Liked */
+}
+.thumb.disliked {
+  color: red; /* Disliked */
+}
+.thumb-text {
+  color: black;
+}
+.action-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #b5c0d0;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+}
+.action-button.active {
+  background-color: rgba(0, 128, 0, 0.5);
+  color: green;
+}
+
+.close-button {
+  color: black;
+}
+
+.action-button {
+  margin-right: 10px; /* Adjust the margin to your preference */
+}
+
+.praise-section {
+  margin-top: 20px; /* Adjust the margin to your preference */
+}
